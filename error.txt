@@ -1,5 +1,10 @@
-! [rejected] master -> master (fetch first) error: failed to push some refs to 'git@github.com:smartBBer/LeetCode.git' hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.。
+! [rejected] master -> master (fetch first) error: failed to push some refs to 'address' 
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 错误原因：本地库和GitHub中的库不同步
-解决方法：$ git pull --rebase origin master
+解决方法：
+$ git pull --rebase origin master
 $ git push origin master
